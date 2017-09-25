@@ -1,0 +1,41 @@
+.mkMission {
+    background-image: url('../../../public/img/mkmission.jpg');
+    background-size: cover;
+    display: inline-block;
+    padding: 7em;
+}
+
+.mkMission h2 {
+    color: white;
+    font-style: italic;
+}
+
+.rethinking {
+    background-color: lightblue;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+}
+
+.ADSfeature {
+    background-color: #00CCFF;
+    width: 20em;
+    margin: 5em;
+}
+.fourSquare {
+    display: flex;
+    flex-direction: column; 
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.fourSquarePic {
+    width: 50%;
+}

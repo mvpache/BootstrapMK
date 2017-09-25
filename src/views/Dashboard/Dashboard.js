@@ -9,8 +9,11 @@ class Dashboard extends Component {
                 <h2>MK's mission has always been to make the tough decisions ─ determining creditworthy from non-creditworthy consumers ─ look easy with our proprietary risk scoring methodology.</h2>
             </div>
             <div className="rethinking">
+                <div className="rethinkText">
                 <h2>Rethinking Underwriting with ADS</h2>
                 <h3>MK's crowning achievement was the development of our 'black box', Automated Decisioning SystemTM (ADS).</h3>
+                </div>
+                <div className="features">
                 <div className="ADSfeature">
                     <p>With ADS, MK has the capacity to deliver scalable, consumer credit risk management without the overhead normally required for such an operation ─ no software engineers or underwriters required.</p>
                 </div>
@@ -21,7 +24,9 @@ class Dashboard extends Component {
                     <p>With easy connection to the major credit bureaus and the advanced ADS in place, MK streamlines objective decision-making ─ rewarding financial institutions with time while managing their risk.</p>
                 </div>
             </div>
+            </div>
             <div className="fourSquare">
+                <div className="row1">
                 <div className="fourSquarePic">
                     <img src={require('../../../public/img/section3.jpg')}/>
                 </div>
@@ -30,6 +35,8 @@ class Dashboard extends Component {
                     <p>Make Data-Driven Decisions. Information is Currency.</p>
                     <p>Gone are the days where transactional data went more or less unused. In today's data-driven world, MK understands that information is currency.</p>
                 </div>
+                </div>
+                <div className="row2">
                 <div className="fourSquareText">
                     <h2>Securing the Future of Credit.</h2>
                     <p>MK respects the privacy of consumer data. Implementing the latest firewall and encryption techniques, MK protects sensitive consumer information.</p>
@@ -46,6 +53,7 @@ class Dashboard extends Component {
                 </div>
                 <div className="fourSquarePic">
                     <img src={require('../../../public/img/section4.jpg')}/>
+                </div>
                 </div>
             </div>
             <div className="whyRisk">
