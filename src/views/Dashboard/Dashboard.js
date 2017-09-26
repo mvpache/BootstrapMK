@@ -27,9 +27,11 @@ class Dashboard extends Component {
             </div>
             <div className="fourSquare">
                 <div className="row1">
-                <div className="fourSquarePic">
-                    <img src={require('../../../public/img/section3.jpg')}/>
-                </div>
+                    < img className = "fourSquarePic"
+                    src = {
+                        require('../../../public/img/section3.jpg')
+                    }
+                    />
                 <div className="fourSquareText">
                     <h2>Make Data-Driven Decisions. Information is Currency.</h2>
                     <p>Make Data-Driven Decisions. Information is Currency.</p>
@@ -51,9 +53,10 @@ class Dashboard extends Component {
                         <li>Vulnerability scanning services</li>
                     </ul> 
                 </div>
-                <div className="fourSquarePic">
-                    <img src={require('../../../public/img/section4.jpg')}/>
-                </div>
+                    < img className="fourSquarePic" src={
+                        require('../../../public/img/section4.jpg')
+                    }
+                    />
                 </div>
             </div>
             <div className="whyRisk">
@@ -70,9 +73,11 @@ class Dashboard extends Component {
                     <p>MK understands that the market is flooded with credit opportunities for consumers. It's this reality that drives MK to deliver immediate underwriting decisions.</p>
                     <p>By giving consumers immediate purchasing power with automated credit decisioning, they will happily sign on the dotted line.</p>
                 </div>
-                <div className="letsBuildPic">
-                    <img src={require('../../../public/img/section6.jpg')}/>
-                </div>
+                    < img className = "letsBuildPic"
+                    src = {
+                        require('../../../public/img/section6.jpg')
+                    }
+                    />
             </div>
             <div className="contact">
                 <div className="contactText">

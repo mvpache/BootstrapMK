@@ -1,3 +1,4 @@
+
 .mkMission {
     background-image: url('../../../public/img/mkmission.jpg');
     background-size: cover;
@@ -26,16 +27,48 @@
     width: 20em;
     margin: 5em;
 }
-.fourSquare {
-    display: flex;
-    flex-direction: column; 
+
+.row1 {
+    background-color: darkslateblue;
+    max-width: 100%;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
+
+.row1 h2 {
+    color: white;
+}
+
+.row1 p {
+    color: white;
+}
+
+.row2 {
+    max-width: 100%;
 }
 
 .fourSquarePic {
-    width: 50%;
+    max-width: 50%;
+    display: inline-block;
+}
+
+.fourSquareText {
+    display: inline-block;
+    max-width: 50%;
+}
+
+.whyRisk {
+    background-color: skyblue;
+}
+
+.letsBuild {
+    background-color: white;
+}
+
+.letsBuildPic {
+    max-width: 50%;
+    display: inline-block;
+}
+
+.letsBuildText {
+    max-width: 50%;
+    display: inline-block;
 }
